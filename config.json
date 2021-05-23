@@ -1,0 +1,22 @@
+/* 如果在actions中运行，请把配置好的本文件按格式复制到secrets(ADVCONFIG)中，本文件仅供本地运行时使用
+ 本文件格式符合json5标准，json5向下兼容json  */
+{
+    "version": "0.0.1", // 配置文件版本,谨慎修改
+    "http_header": {    // http头部，访问B站时使用  注:User-Agent建议改为常用的浏览器ua(下面是google浏览器)，其他的不改
+    	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36",
+    	"Referer": "https://www.bilibili.com/",
+    	"Connection": "keep-alive"
+    },
+    "default": {
+            "send_msg": "签到"           // 向所有有粉丝牌的房间发送消息(作用是点亮粉丝牌和增加其密度)，值为字符串，为空字符串则不发送
+    },
+    "log_file": "BiliExp.log",   // 输出日志文件，不输出请留空，也可填写完整路径
+    "log_console": true,         // 是否把日志输出到控制台
+    "users": {                 //账户数组，每个账户包含一个cookieDatas和tasks参数，使用actions的用户可以使用secrets(biliconfig)指定cookie而不用本参数
+        "cookieDatas": {        // cookie获取方式见项目说明
+            "SESSDATA": "",
+            "bili_jct": "",
+            "DedeUserID": ""
+        }
+    }
+}
