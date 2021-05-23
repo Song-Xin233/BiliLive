@@ -14,9 +14,9 @@
     "log_console": true,         // 是否把日志输出到控制台
     "users": {                 //账户数组，每个账户包含一个cookieDatas和tasks参数，使用actions的用户可以使用secrets(biliconfig)指定cookie而不用本参数
         "cookieDatas": {        // cookie获取方式见项目说明
-            "SESSDATA": "3512aefb%2C1634053348%2C90aab%2A41",
-            "bili_jct": "8258c0f22fa62665ab5e98f11174cfac",
-            "DedeUserID": "275584126"
+            "SESSDATA": "",
+            "bili_jct": "",
+            "DedeUserID": ""
         }
     }
 }
