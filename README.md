@@ -16,7 +16,7 @@ PS: 尽管这个项目目前所属为SSXX-233，但是大部分（99%）功能�
 2. 安装 python3.7+，安装方法自行谷歌
 3. [requirements.txt](requirements.txt) 是所需第三方模块，执行 `pip install -r requirements.txt` 安装模块
 4. [config.json](config.json) 是配置文件，里面有说明
-5. Python 和需要模块都装好了直接 **cmd** 运行 `python ./main.py`
+5. Python 和需要模块安装完毕后直接 **cmd** 运行 `python ./main.py`
 
 ### cookieDatas获取方法
 
